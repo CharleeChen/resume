@@ -1,0 +1,20 @@
+<div class="skill">
+    <div class="title" ng-bind="skill.title"></div>
+    <div class="content">
+        <div class="contain">
+            <div class="radar">
+                <ul class="circle">
+                    <li class="circle-item"
+                        style="background-color:{{item.color}}"
+                        ng-repeat="item in skill.skillList track by $index"
+                        ng-bind="item.name">
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-des">
+                <p ng-repeat="item in skill.desList track by $index" ng-bind="item"></p>
+            </div>
+        </div>
+
+    </div>
+</div>

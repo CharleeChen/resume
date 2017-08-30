@@ -1,0 +1,12 @@
+<div class="work">
+    <div class="title" ng-bind="work.title"></div>
+    <div class="content">
+        <ul class="work-list">
+            <li class="work-item" ng-repeat="item in work.worksList track by $index">
+                <h4 class="work-title" ng-bind="item.title"></h4>
+                <p class="work-des"  ng-bind="item.des"></p>
+                <a class="work-link" ng-href="{{item.url}}"><img src="img/w_link.svg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</div>

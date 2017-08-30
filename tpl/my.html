@@ -1,0 +1,22 @@
+<div class="my">
+    <div class="title" ng-bind="my.title"></div>
+    <div class="content">
+        <div>
+            <ul class="my-list">
+                <li class="my-item" ng-repeat="item in my.myList track by $index">
+                    <div class="cont">
+                        <div class="img">
+                            <img ng-src="{{item.icon}}" alt="">
+                        </div>
+                        <div class="intro">
+                            <span ng-bind="item.key"></span>/<span ng-bind="item.value"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="my-des" >
+            <p ng-repeat="item in my.desList track by $index" ng-bind="item"></p>
+        </div>
+    </div>
+</div>

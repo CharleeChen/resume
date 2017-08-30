@@ -1,0 +1,131 @@
+
+{
+  "default": {
+    "quote": "办法总比困难多！",
+    "desList": [
+      "我叫陈林",
+      "一名前端研发工程师",
+      "490328066@qq.com"
+    ]
+  },
+  "my": {
+    "title": "关于我",
+    "myList": [
+      {
+        "icon": "img/i_age.svg",
+        "key": "年龄",
+        "value": "26岁"
+      },
+      {
+        "icon": "img/i_edu.svg",
+        "key": "学历",
+        "value": "本科在读"
+      },
+      {
+        "icon": "img/i_site.svg",
+        "key": "坐标",
+        "value": "上海"
+      },
+      {
+        "icon": "img/i_status.svg",
+        "key": "状态",
+        "value": "离职"
+      }
+    ],
+    "desList": [
+      "三年IT行业经验,半年多创业经历",
+      "高效的自学能力,具备独立分析解决问题能力",
+      "拿得起放得下，心脏够强大",
+      "中度强迫症患者"
+    ]
+  },
+  "skill": {
+    "title": "技能",
+    "desList": [
+      "熟悉HTML5和CSS3新特性, 熟悉w3c标准，熟悉flex布局和响应式开发",
+      "熟悉Bootstrap框架、jQuery框架、AngularJS框架、Vue框架",
+      "熟练使用PS、AI、Fireworks等设计软件",
+      "能使用php、mysql、ajax、node.js等技术进行交互"
+    ],
+    "skillList": [
+      {
+        "color": "rgba(121,100,102,0.8)",
+        "name": "gulp"
+      },
+      {
+        "color": "rgba(49,65,82,0.8)",
+        "name": "ng"
+      },
+      {
+        "color": "rgba(66,66,66,0.8)",
+        "name": "less"
+      },
+      {
+        "color": "rgba(193,131,106,0.8)",
+        "name": "git"
+      },
+      {
+        "color": "rgba(117,148,179,0.8)",
+        "name": "nodejs"
+      },
+      {
+        "color": "rgba(179,164,140,0.8)",
+        "name": "es6"
+      },
+      {
+        "color": "rgba(171,209,220,0.8)",
+        "name": "vue"
+      },
+      {
+        "color": "rgba(238,215,163,0.8)",
+        "name": "ng"
+      }
+    ]
+  },
+  "work": {
+    "title": "作品集",
+    "worksList": [
+      {
+        "title": "一元云购网站仿写",
+        "des": "目前已完成注册页、登录页、忘记密码页的html、css、js以及主页的html、css和部分js。与数据库连接，可进行注册、修改密码、登录操作。",
+        "url": "http://www.clyoo.cn/"
+      },
+      {
+        "title": "U供平台",
+        "des": "U供平台主要应用场景上在工业园区内部使用多一个跟单系统平台。主要负责首页、办公用品、包装印刷、企业服务、优供主打、行业新闻等静态页面的编写。",
+        "url": "http://www.usupplychain.com/"
+      }
+    ]
+  },
+  "experience": {
+    "title": "经历",
+    "expList": [
+      {
+        "title": "伍點半早餐店",
+        "time": "2016年7月~2017年2月",
+        "post": "创业",
+        "imgUrl": "img/e_js.svg",
+        "tech": "做过一个预约订餐系统",
+        "contentList": [
+          "店内订餐系统，原计划加载到微信公众号内，",
+          "微信下单，预定早餐。包括主页店铺logo，",
+          "产品页，购物车，个人中心以及后台订单查看。",
+          "之后由于经营不善，店铺关门，项目未上线。"
+        ]
+      },
+      {
+        "title": "伦茨（上海）传动系统有限公司",
+        "time": "2013年12月~2016年6月",
+        "post": "Junior IT Enginner",
+        "imgUrl": "img/e_html.svg",
+        "tech": "html5,css3,javascript,jquery,bootstrap等",
+        "contentList": [
+          "负责企业站静态页开发",
+          "负责网站后台维护",
+          "负责公司内部网站开发",
+          "负责公司考勤、监控系统等IT业务"
+        ]
+      }
+    ]
+  }
+}
