@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-$END$
+<body ng-controller="parentCtrl">
+<div ng-include="'tpl/include/header.html'"> </div>
+<div ng-view id="div_box"></div>
+<div ng-include="'tpl/include/footer.html'"> </div>
+<script src="js/angular.js"></script>
+<script src="js/angularss-route.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
